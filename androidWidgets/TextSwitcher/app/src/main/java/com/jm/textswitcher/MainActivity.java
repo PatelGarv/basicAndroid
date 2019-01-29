@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
 
     private TextSwitcher textSwitcher;
     private Button btnNext,btnPrev;
-    private static final String[] TEXT = {"A","B","C","D","E","F","G"};
+    private static final String[] TEXT = {"A","B","C","D","E","F","G","H"};
     private int position = -1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
