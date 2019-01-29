@@ -15,7 +15,7 @@ SeekBar seekBar;
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                Toast.makeText(getApplicationContext(),"SeekBar Progress: "+i,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"SeekBar Progress : "+i,Toast.LENGTH_SHORT).show();
             }
 
             @Override
